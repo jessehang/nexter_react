@@ -65,8 +65,9 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'project',
+      title: 'nexter - your home, your freedom',
       description: 'project',
+      favicon: './img/favicon.png',
       template: './public/src/page-template.hbs'
     })
   ]
