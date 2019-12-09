@@ -3,7 +3,7 @@ import styles from './sidebar.scss';
 
 const Sidebar = () => {
   return (
-    <div className={styles.sidebar}>
+    <div className={styles.container}>
       <button className={styles.navBtn}></button>
     </div>
   );
