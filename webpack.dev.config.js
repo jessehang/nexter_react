@@ -18,7 +18,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|jpeg)$/,
         use: ['file-loader']
       },
       {
@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: [
+        use: [
           {
             loader: 'style-loader'
           },
@@ -42,6 +42,12 @@ module.exports = {
           },
           {
             loader: 'sass-loader'
+          },
+          {
+            loader: 'sass-resources-loader',
+            options: {
+              resources: './public/src/styles/variables.scss'
+            }
           }
         ]
       },
