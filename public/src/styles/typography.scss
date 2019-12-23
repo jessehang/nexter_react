@@ -17,6 +17,18 @@
   text-transform: uppercase;
 }
 
+.heading4 {
+  @extend %heading;
+  font-size: 1.9rem;
+
+  &Light {
+    color: $color-grey-light-1;
+  }
+  &Dark {
+    color: $color-grey-dark-1;
+  }
+}
+
 .btn {
   background-color: $color-primary;
   color: #fff;
