@@ -10,7 +10,7 @@ const Realtors = () => {
     <div className={styles.container}>
       <h3 className={font.heading3}>Top 3 Realtors</h3>
       <div className={styles.realtorsList}>
-        <img src={realtor1} alt="Realtor 1" class={styles.image} />
+        <img src={realtor1} alt="Realtor 1" className={styles.image} />
         <div>
           <h4 className={`${font.heading4} ${font.heading4Light}`}>
             Erik Feinman
@@ -18,7 +18,7 @@ const Realtors = () => {
           <p className={styles.sold}>245 houses sold</p>
         </div>
 
-        <img src={realtor2} alt="Realtor 2" class={styles.image} />
+        <img src={realtor2} alt="Realtor 2" className={styles.image} />
         <div>
           <h4 className={`${font.heading4} ${font.heading4Light}`}>
             Kim Brown
@@ -26,7 +26,7 @@ const Realtors = () => {
           <p className={styles.sold}>212 houses sold</p>
         </div>
 
-        <img src={realtor3} alt="Realtor 3" class={styles.image} />
+        <img src={realtor3} alt="Realtor 3" className={styles.image} />
         <div>
           <h4 className={`${font.heading4} ${font.heading4Light}`}>
             Toby Ramsey
